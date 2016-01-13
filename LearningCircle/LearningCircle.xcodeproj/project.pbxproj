@@ -12,7 +12,9 @@
 		3A077B9D1C46434000DBEA9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A077B9C1C46434000DBEA9E /* AppDelegate.m */; };
 		3A077BA31C46443500DBEA9E /* LEOMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A077BA21C46443500DBEA9E /* LEOMainTabBarController.m */; };
 		3A077BA61C46444E00DBEA9E /* LEOMainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A077BA51C46444E00DBEA9E /* LEOMainNavController.m */; };
-		4644E2FF1C4646A7009A593C /* GDNAnswerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4644E2FE1C4646A7009A593C /* GDNAnswerController.m */; };
+		46751E271C464B4700362E8A /* GDNAnswerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46751E261C464B4700362E8A /* GDNAnswerController.m */; };
+		46751E291C464B6400362E8A /* answerNow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46751E281C464B6400362E8A /* answerNow.storyboard */; };
+		46751E2C1C464B9D00362E8A /* GDAnswerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46751E2B1C464B9D00362E8A /* GDAnswerModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +28,11 @@
 		3A077BA21C46443500DBEA9E /* LEOMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOMainTabBarController.m; sourceTree = "<group>"; };
 		3A077BA41C46444E00DBEA9E /* LEOMainNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOMainNavController.h; sourceTree = "<group>"; };
 		3A077BA51C46444E00DBEA9E /* LEOMainNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOMainNavController.m; sourceTree = "<group>"; };
-		4644E2FD1C4646A7009A593C /* GDNAnswerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDNAnswerController.h; sourceTree = SOURCE_ROOT; };
-		4644E2FE1C4646A7009A593C /* GDNAnswerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDNAnswerController.m; sourceTree = SOURCE_ROOT; };
+		46751E251C464B4700362E8A /* GDNAnswerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDNAnswerController.h; path = ../../../GDNAnswerController.h; sourceTree = "<group>"; };
+		46751E261C464B4700362E8A /* GDNAnswerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDNAnswerController.m; path = ../../../GDNAnswerController.m; sourceTree = "<group>"; };
+		46751E281C464B6400362E8A /* answerNow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = answerNow.storyboard; path = ../../../answerNow.storyboard; sourceTree = "<group>"; };
+		46751E2A1C464B9D00362E8A /* GDAnswerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDAnswerModel.h; path = ../views/GDAnswerModel.h; sourceTree = "<group>"; };
+		46751E2B1C464B9D00362E8A /* GDAnswerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDAnswerModel.m; path = ../views/GDAnswerModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +65,8 @@
 		3A0779021C4622AF00DBEA9E /* LearningCircle */ = {
 			isa = PBXGroup;
 			children = (
+				46751E201C464B3400362E8A /* 即时答 */,
 				3A077B4A1C4641A500DBEA9E /* 伙伴圈 */,
-				3A077B511C4641A500DBEA9E /* 即时答 */,
 				3A077B581C4641A500DBEA9E /* 今日大课 */,
 				3A077B5F1C4641A500DBEA9E /* 我 */,
 				3A077B661C4641A500DBEA9E /* main(主框架) */,
@@ -133,63 +138,6 @@
 			children = (
 			);
 			path = "伙伴圈切图";
-			sourceTree = "<group>";
-		};
-		3A077B511C4641A500DBEA9E /* 即时答 */ = {
-			isa = PBXGroup;
-			children = (
-				3A077B521C4641A500DBEA9E /* controllers */,
-				3A077B531C4641A500DBEA9E /* models */,
-				3A077B541C4641A500DBEA9E /* others */,
-				3A077B551C4641A500DBEA9E /* views */,
-			);
-			path = "即时答";
-			sourceTree = "<group>";
-		};
-		3A077B521C4641A500DBEA9E /* controllers */ = {
-			isa = PBXGroup;
-			children = (
-				4644E2FD1C4646A7009A593C /* GDNAnswerController.h */,
-				4644E2FE1C4646A7009A593C /* GDNAnswerController.m */,
-			);
-			path = controllers;
-			sourceTree = "<group>";
-		};
-		3A077B531C4641A500DBEA9E /* models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		3A077B541C4641A500DBEA9E /* others */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = others;
-			sourceTree = "<group>";
-		};
-		3A077B551C4641A500DBEA9E /* views */ = {
-			isa = PBXGroup;
-			children = (
-				3A077B561C4641A500DBEA9E /* 切图 */,
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		3A077B561C4641A500DBEA9E /* 切图 */ = {
-			isa = PBXGroup;
-			children = (
-				3A077B571C4641A500DBEA9E /* 即时答切图 */,
-			);
-			path = "切图";
-			sourceTree = "<group>";
-		};
-		3A077B571C4641A500DBEA9E /* 即时答切图 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "即时答切图";
 			sourceTree = "<group>";
 		};
 		3A077B581C4641A500DBEA9E /* 今日大课 */ = {
@@ -363,6 +311,50 @@
 			path = "菜单栏切图";
 			sourceTree = "<group>";
 		};
+		46751E201C464B3400362E8A /* 即时答 */ = {
+			isa = PBXGroup;
+			children = (
+				46751E231C464B3400362E8A /* tooles */,
+				46751E211C464B3400362E8A /* controlleres */,
+				46751E221C464B3400362E8A /* modeles */,
+				46751E241C464B3400362E8A /* views */,
+			);
+			path = "即时答";
+			sourceTree = "<group>";
+		};
+		46751E211C464B3400362E8A /* controlleres */ = {
+			isa = PBXGroup;
+			children = (
+				46751E251C464B4700362E8A /* GDNAnswerController.h */,
+				46751E261C464B4700362E8A /* GDNAnswerController.m */,
+			);
+			path = controlleres;
+			sourceTree = "<group>";
+		};
+		46751E221C464B3400362E8A /* modeles */ = {
+			isa = PBXGroup;
+			children = (
+				46751E2A1C464B9D00362E8A /* GDAnswerModel.h */,
+				46751E2B1C464B9D00362E8A /* GDAnswerModel.m */,
+			);
+			path = modeles;
+			sourceTree = "<group>";
+		};
+		46751E231C464B3400362E8A /* tooles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tooles;
+			sourceTree = "<group>";
+		};
+		46751E241C464B3400362E8A /* views */ = {
+			isa = PBXGroup;
+			children = (
+				46751E281C464B6400362E8A /* answerNow.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -422,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A0779101C4622AF00DBEA9E /* Assets.xcassets in Resources */,
+				46751E291C464B6400362E8A /* answerNow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +426,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A077B9D1C46434000DBEA9E /* AppDelegate.m in Sources */,
-				4644E2FF1C4646A7009A593C /* GDNAnswerController.m in Sources */,
+				46751E271C464B4700362E8A /* GDNAnswerController.m in Sources */,
+				46751E2C1C464B9D00362E8A /* GDAnswerModel.m in Sources */,
 				3A0779051C4622AF00DBEA9E /* main.m in Sources */,
 				3A077BA31C46443500DBEA9E /* LEOMainTabBarController.m in Sources */,
 				3A077BA61C46444E00DBEA9E /* LEOMainNavController.m in Sources */,
