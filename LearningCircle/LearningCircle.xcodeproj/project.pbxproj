@@ -9,24 +9,13 @@
 /* Begin PBXBuildFile section */
 		3A0779051C4622AF00DBEA9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0779041C4622AF00DBEA9E /* main.m */; };
 		3A0779101C4622AF00DBEA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A07790F1C4622AF00DBEA9E /* Assets.xcassets */; };
-		3A0779131C4622AF00DBEA9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0779111C4622AF00DBEA9E /* LaunchScreen.storyboard */; };
-		3A07793A1C4624B600DBEA9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0779371C4624B600DBEA9E /* AppDelegate.m */; };
-		3A077B1A1C463A2C00DBEA9E /* LEOMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A077B191C463A2C00DBEA9E /* LEOMainTabBarController.m */; };
-		3A077B1D1C463B6C00DBEA9E /* LEOMainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A077B1C1C463B6C00DBEA9E /* LEOMainNavController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A0779001C4622AF00DBEA9E /* LearningCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0779041C4622AF00DBEA9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A07790F1C4622AF00DBEA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3A0779121C4622AF00DBEA9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A0779141C4622AF00DBEA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A0779361C4624B600DBEA9E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3A0779371C4624B600DBEA9E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3A077B181C463A2C00DBEA9E /* LEOMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOMainTabBarController.h; sourceTree = "<group>"; };
-		3A077B191C463A2C00DBEA9E /* LEOMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOMainTabBarController.m; sourceTree = "<group>"; };
-		3A077B1B1C463B6C00DBEA9E /* LEOMainNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOMainNavController.h; sourceTree = "<group>"; };
-		3A077B1C1C463B6C00DBEA9E /* LEOMainNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOMainNavController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,11 +48,11 @@
 		3A0779021C4622AF00DBEA9E /* LearningCircle */ = {
 			isa = PBXGroup;
 			children = (
-				3A07791A1C4624B600DBEA9E /* 伙伴圈 */,
-				3A0779201C4624B600DBEA9E /* 即时答 */,
-				3A0779261C4624B600DBEA9E /* 今日大课 */,
-				3A07792C1C4624B600DBEA9E /* 我 */,
-				3A0779321C4624B600DBEA9E /* main(主框架) */,
+				3A077B4A1C4641A500DBEA9E /* 伙伴圈 */,
+				3A077B511C4641A500DBEA9E /* 即时答 */,
+				3A077B581C4641A500DBEA9E /* 今日大课 */,
+				3A077B5F1C4641A500DBEA9E /* 我 */,
+				3A077B661C4641A500DBEA9E /* main(主框架) */,
 				3A0779031C4622AF00DBEA9E /* Supporting Files */,
 			);
 			path = LearningCircle;
@@ -79,246 +68,279 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3A07791A1C4624B600DBEA9E /* 伙伴圈 */ = {
+		3A077B4A1C4641A500DBEA9E /* 伙伴圈 */ = {
 			isa = PBXGroup;
 			children = (
-				3A07791B1C4624B600DBEA9E /* controllers */,
-				3A07791C1C4624B600DBEA9E /* models */,
-				3A07791D1C4624B600DBEA9E /* others */,
-				3A07791E1C4624B600DBEA9E /* views */,
+				3A077B4B1C4641A500DBEA9E /* controllers */,
+				3A077B4C1C4641A500DBEA9E /* models */,
+				3A077B4D1C4641A500DBEA9E /* others */,
+				3A077B4E1C4641A500DBEA9E /* views */,
 			);
 			path = "伙伴圈";
 			sourceTree = "<group>";
 		};
-		3A07791B1C4624B600DBEA9E /* controllers */ = {
+		3A077B4B1C4641A500DBEA9E /* controllers */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = controllers;
 			sourceTree = "<group>";
 		};
-		3A07791C1C4624B600DBEA9E /* models */ = {
+		3A077B4C1C4641A500DBEA9E /* models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = models;
 			sourceTree = "<group>";
 		};
-		3A07791D1C4624B600DBEA9E /* others */ = {
+		3A077B4D1C4641A500DBEA9E /* others */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = others;
 			sourceTree = "<group>";
 		};
-		3A07791E1C4624B600DBEA9E /* views */ = {
+		3A077B4E1C4641A500DBEA9E /* views */ = {
 			isa = PBXGroup;
 			children = (
-				3A07791F1C4624B600DBEA9E /* 切图 */,
+				3A077B4F1C4641A500DBEA9E /* 切图 */,
 			);
 			path = views;
 			sourceTree = "<group>";
 		};
-		3A07791F1C4624B600DBEA9E /* 切图 */ = {
+		3A077B4F1C4641A500DBEA9E /* 切图 */ = {
 			isa = PBXGroup;
 			children = (
+				3A077B501C4641A500DBEA9E /* 伙伴圈切图 */,
 			);
 			path = "切图";
 			sourceTree = "<group>";
 		};
-		3A0779201C4624B600DBEA9E /* 即时答 */ = {
+		3A077B501C4641A500DBEA9E /* 伙伴圈切图 */ = {
 			isa = PBXGroup;
 			children = (
-				3A0779211C4624B600DBEA9E /* controllers */,
-				3A0779221C4624B600DBEA9E /* models */,
-				3A0779231C4624B600DBEA9E /* others */,
-				3A0779241C4624B600DBEA9E /* views */,
+			);
+			path = "伙伴圈切图";
+			sourceTree = "<group>";
+		};
+		3A077B511C4641A500DBEA9E /* 即时答 */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B521C4641A500DBEA9E /* controllers */,
+				3A077B531C4641A500DBEA9E /* models */,
+				3A077B541C4641A500DBEA9E /* others */,
+				3A077B551C4641A500DBEA9E /* views */,
 			);
 			path = "即时答";
 			sourceTree = "<group>";
 		};
-		3A0779211C4624B600DBEA9E /* controllers */ = {
+		3A077B521C4641A500DBEA9E /* controllers */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = controllers;
 			sourceTree = "<group>";
 		};
-		3A0779221C4624B600DBEA9E /* models */ = {
+		3A077B531C4641A500DBEA9E /* models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = models;
 			sourceTree = "<group>";
 		};
-		3A0779231C4624B600DBEA9E /* others */ = {
+		3A077B541C4641A500DBEA9E /* others */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = others;
 			sourceTree = "<group>";
 		};
-		3A0779241C4624B600DBEA9E /* views */ = {
+		3A077B551C4641A500DBEA9E /* views */ = {
 			isa = PBXGroup;
 			children = (
-				3A0779251C4624B600DBEA9E /* 切图 */,
+				3A077B561C4641A500DBEA9E /* 切图 */,
 			);
 			path = views;
 			sourceTree = "<group>";
 		};
-		3A0779251C4624B600DBEA9E /* 切图 */ = {
+		3A077B561C4641A500DBEA9E /* 切图 */ = {
 			isa = PBXGroup;
 			children = (
+				3A077B571C4641A500DBEA9E /* 即时答切图 */,
 			);
 			path = "切图";
 			sourceTree = "<group>";
 		};
-		3A0779261C4624B600DBEA9E /* 今日大课 */ = {
+		3A077B571C4641A500DBEA9E /* 即时答切图 */ = {
 			isa = PBXGroup;
 			children = (
-				3A0779271C4624B600DBEA9E /* controllers */,
-				3A0779281C4624B600DBEA9E /* models */,
-				3A0779291C4624B600DBEA9E /* others */,
-				3A07792A1C4624B600DBEA9E /* views */,
+			);
+			path = "即时答切图";
+			sourceTree = "<group>";
+		};
+		3A077B581C4641A500DBEA9E /* 今日大课 */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B591C4641A500DBEA9E /* controllers */,
+				3A077B5A1C4641A500DBEA9E /* models */,
+				3A077B5B1C4641A500DBEA9E /* others */,
+				3A077B5C1C4641A500DBEA9E /* views */,
 			);
 			path = "今日大课";
 			sourceTree = "<group>";
 		};
-		3A0779271C4624B600DBEA9E /* controllers */ = {
+		3A077B591C4641A500DBEA9E /* controllers */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = controllers;
 			sourceTree = "<group>";
 		};
-		3A0779281C4624B600DBEA9E /* models */ = {
+		3A077B5A1C4641A500DBEA9E /* models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = models;
 			sourceTree = "<group>";
 		};
-		3A0779291C4624B600DBEA9E /* others */ = {
+		3A077B5B1C4641A500DBEA9E /* others */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = others;
 			sourceTree = "<group>";
 		};
-		3A07792A1C4624B600DBEA9E /* views */ = {
+		3A077B5C1C4641A500DBEA9E /* views */ = {
 			isa = PBXGroup;
 			children = (
-				3A07792B1C4624B600DBEA9E /* 切图 */,
+				3A077B5D1C4641A500DBEA9E /* 切图 */,
 			);
 			path = views;
 			sourceTree = "<group>";
 		};
-		3A07792B1C4624B600DBEA9E /* 切图 */ = {
+		3A077B5D1C4641A500DBEA9E /* 切图 */ = {
 			isa = PBXGroup;
 			children = (
+				3A077B5E1C4641A500DBEA9E /* 今日大课切图 */,
 			);
 			path = "切图";
 			sourceTree = "<group>";
 		};
-		3A07792C1C4624B600DBEA9E /* 我 */ = {
+		3A077B5E1C4641A500DBEA9E /* 今日大课切图 */ = {
 			isa = PBXGroup;
 			children = (
-				3A07792D1C4624B600DBEA9E /* controllers */,
-				3A07792E1C4624B600DBEA9E /* models */,
-				3A07792F1C4624B600DBEA9E /* others */,
-				3A0779301C4624B600DBEA9E /* views */,
+			);
+			path = "今日大课切图";
+			sourceTree = "<group>";
+		};
+		3A077B5F1C4641A500DBEA9E /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B601C4641A500DBEA9E /* controllers */,
+				3A077B611C4641A500DBEA9E /* models */,
+				3A077B621C4641A500DBEA9E /* others */,
+				3A077B631C4641A500DBEA9E /* views */,
 			);
 			path = "我";
 			sourceTree = "<group>";
 		};
-		3A07792D1C4624B600DBEA9E /* controllers */ = {
+		3A077B601C4641A500DBEA9E /* controllers */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = controllers;
 			sourceTree = "<group>";
 		};
-		3A07792E1C4624B600DBEA9E /* models */ = {
+		3A077B611C4641A500DBEA9E /* models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = models;
 			sourceTree = "<group>";
 		};
-		3A07792F1C4624B600DBEA9E /* others */ = {
+		3A077B621C4641A500DBEA9E /* others */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = others;
 			sourceTree = "<group>";
 		};
-		3A0779301C4624B600DBEA9E /* views */ = {
+		3A077B631C4641A500DBEA9E /* views */ = {
 			isa = PBXGroup;
 			children = (
-				3A0779311C4624B600DBEA9E /* 切图 */,
+				3A077B641C4641A500DBEA9E /* 切图 */,
 			);
 			path = views;
 			sourceTree = "<group>";
 		};
-		3A0779311C4624B600DBEA9E /* 切图 */ = {
+		3A077B641C4641A500DBEA9E /* 切图 */ = {
 			isa = PBXGroup;
 			children = (
+				3A077B651C4641A500DBEA9E /* 我切图 */,
 			);
 			path = "切图";
 			sourceTree = "<group>";
 		};
-		3A0779321C4624B600DBEA9E /* main(主框架) */ = {
+		3A077B651C4641A500DBEA9E /* 我切图 */ = {
 			isa = PBXGroup;
 			children = (
-				3A0779331C4624B600DBEA9E /* controllers */,
-				3A0779341C4624B600DBEA9E /* models */,
-				3A0779351C4624B600DBEA9E /* others */,
-				3A0779381C4624B600DBEA9E /* views */,
+			);
+			path = "我切图";
+			sourceTree = "<group>";
+		};
+		3A077B661C4641A500DBEA9E /* main(主框架) */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B671C4641A500DBEA9E /* controllers */,
+				3A077B681C4641A500DBEA9E /* models */,
+				3A077B691C4641A500DBEA9E /* others */,
+				3A077B6A1C4641A500DBEA9E /* views */,
 			);
 			path = "main(主框架)";
 			sourceTree = "<group>";
 		};
-		3A0779331C4624B600DBEA9E /* controllers */ = {
+		3A077B671C4641A500DBEA9E /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3A077B181C463A2C00DBEA9E /* LEOMainTabBarController.h */,
-				3A077B191C463A2C00DBEA9E /* LEOMainTabBarController.m */,
-				3A077B1B1C463B6C00DBEA9E /* LEOMainNavController.h */,
-				3A077B1C1C463B6C00DBEA9E /* LEOMainNavController.m */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
 		};
-		3A0779341C4624B600DBEA9E /* models */ = {
+		3A077B681C4641A500DBEA9E /* models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = models;
 			sourceTree = "<group>";
 		};
-		3A0779351C4624B600DBEA9E /* others */ = {
+		3A077B691C4641A500DBEA9E /* others */ = {
 			isa = PBXGroup;
 			children = (
-				3A0779361C4624B600DBEA9E /* AppDelegate.h */,
-				3A0779371C4624B600DBEA9E /* AppDelegate.m */,
 			);
 			path = others;
 			sourceTree = "<group>";
 		};
-		3A0779381C4624B600DBEA9E /* views */ = {
+		3A077B6A1C4641A500DBEA9E /* views */ = {
 			isa = PBXGroup;
 			children = (
-				3A0779111C4622AF00DBEA9E /* LaunchScreen.storyboard */,
-				3A0779391C4624B600DBEA9E /* 切图 */,
+				3A077B6B1C4641A500DBEA9E /* 切图 */,
 			);
 			path = views;
 			sourceTree = "<group>";
 		};
-		3A0779391C4624B600DBEA9E /* 切图 */ = {
+		3A077B6B1C4641A500DBEA9E /* 切图 */ = {
+			isa = PBXGroup;
+			children = (
+				3A077B6C1C4641A500DBEA9E /* 菜单栏切图 */,
+			);
+			path = "切图";
+			sourceTree = "<group>";
+		};
+		3A077B6C1C4641A500DBEA9E /* 菜单栏切图 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "切图";
+			path = "菜单栏切图";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -379,7 +401,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A0779131C4622AF00DBEA9E /* LaunchScreen.storyboard in Resources */,
 				3A0779101C4622AF00DBEA9E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,26 +412,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A07793A1C4624B600DBEA9E /* AppDelegate.m in Sources */,
 				3A0779051C4622AF00DBEA9E /* main.m in Sources */,
-				3A077B1A1C463A2C00DBEA9E /* LEOMainTabBarController.m in Sources */,
-				3A077B1D1C463B6C00DBEA9E /* LEOMainNavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3A0779111C4622AF00DBEA9E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A0779121C4622AF00DBEA9E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3A0779151C4622AF00DBEA9E /* Debug */ = {
