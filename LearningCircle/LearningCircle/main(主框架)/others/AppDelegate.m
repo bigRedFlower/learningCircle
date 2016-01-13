@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LEOMainTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    LEOMainTabBarController *mainVc = [[LEOMainTabBarController alloc]init];
+    self.window.rootViewController = mainVc;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
