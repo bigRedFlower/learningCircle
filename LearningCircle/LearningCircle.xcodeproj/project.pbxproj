@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		3A0779051C4622AF00DBEA9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0779041C4622AF00DBEA9E /* main.m */; };
 		3A0779101C4622AF00DBEA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A07790F1C4622AF00DBEA9E /* Assets.xcassets */; };
+		3A077B9D1C46434000DBEA9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A077B9C1C46434000DBEA9E /* AppDelegate.m */; };
+		3A077BA31C46443500DBEA9E /* LEOMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A077BA21C46443500DBEA9E /* LEOMainTabBarController.m */; };
+		3A077BA61C46444E00DBEA9E /* LEOMainNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A077BA51C46444E00DBEA9E /* LEOMainNavController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +19,12 @@
 		3A0779041C4622AF00DBEA9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A07790F1C4622AF00DBEA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A0779141C4622AF00DBEA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A077B9B1C46434000DBEA9E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A077B9C1C46434000DBEA9E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A077BA11C46443500DBEA9E /* LEOMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOMainTabBarController.h; sourceTree = "<group>"; };
+		3A077BA21C46443500DBEA9E /* LEOMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOMainTabBarController.m; sourceTree = "<group>"; };
+		3A077BA41C46444E00DBEA9E /* LEOMainNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEOMainNavController.h; sourceTree = "<group>"; };
+		3A077BA51C46444E00DBEA9E /* LEOMainNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEOMainNavController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +311,10 @@
 		3A077B671C4641A500DBEA9E /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				3A077BA11C46443500DBEA9E /* LEOMainTabBarController.h */,
+				3A077BA21C46443500DBEA9E /* LEOMainTabBarController.m */,
+				3A077BA41C46444E00DBEA9E /* LEOMainNavController.h */,
+				3A077BA51C46444E00DBEA9E /* LEOMainNavController.m */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -316,6 +329,8 @@
 		3A077B691C4641A500DBEA9E /* others */ = {
 			isa = PBXGroup;
 			children = (
+				3A077B9B1C46434000DBEA9E /* AppDelegate.h */,
+				3A077B9C1C46434000DBEA9E /* AppDelegate.m */,
 			);
 			path = others;
 			sourceTree = "<group>";
@@ -412,7 +427,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A077B9D1C46434000DBEA9E /* AppDelegate.m in Sources */,
 				3A0779051C4622AF00DBEA9E /* main.m in Sources */,
+				3A077BA31C46443500DBEA9E /* LEOMainTabBarController.m in Sources */,
+				3A077BA61C46444E00DBEA9E /* LEOMainNavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
