@@ -1,24 +1,22 @@
 //
-//  LEOMainTabBarController.m
+//  GDNAnswerController.m
 //  LearningCircle
 //
-//  Created by zz on 16/1/13.
+//  Created by Geeven on 16/1/13.
 //  Copyright © 2016年 zz. All rights reserved.
 //
 
-#import "LEOMainTabBarController.h"
+#import "GDNAnswerController.h"
 
-@interface LEOMainTabBarController ()
+@interface GDNAnswerController ()
 
 @end
 
-@implementation LEOMainTabBarController
+@implementation GDNAnswerController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
