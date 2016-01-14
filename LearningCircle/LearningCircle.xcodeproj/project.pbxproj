@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0ACC46421C4646FF001CC07C /* LEOMyControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC46411C4646FF001CC07C /* LEOMyControllerTableViewController.m */; };
 		3A0779051C4622AF00DBEA9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0779041C4622AF00DBEA9E /* main.m */; };
 		3A0779101C4622AF00DBEA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A07790F1C4622AF00DBEA9E /* Assets.xcassets */; };
 		3A077B9D1C46434000DBEA9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A077B9C1C46434000DBEA9E /* AppDelegate.m */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0ACC46401C4646FF001CC07C /* LEOMyControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LEOMyControllerTableViewController.h; path = ../../../../../../Documents/LEOMyControllerTableViewController.h; sourceTree = "<group>"; };
+		0ACC46411C4646FF001CC07C /* LEOMyControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LEOMyControllerTableViewController.m; path = ../../../../../../Documents/LEOMyControllerTableViewController.m; sourceTree = "<group>"; };
 		3A0779001C4622AF00DBEA9E /* LearningCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0779041C4622AF00DBEA9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3A07790F1C4622AF00DBEA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -256,6 +259,8 @@
 		3A077B601C4641A500DBEA9E /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0ACC46401C4646FF001CC07C /* LEOMyControllerTableViewController.h */,
+				0ACC46411C4646FF001CC07C /* LEOMyControllerTableViewController.m */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -428,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A077B9D1C46434000DBEA9E /* AppDelegate.m in Sources */,
+				0ACC46421C4646FF001CC07C /* LEOMyControllerTableViewController.m in Sources */,
 				3A0779051C4622AF00DBEA9E /* main.m in Sources */,
 				3A077BA31C46443500DBEA9E /* LEOMainTabBarController.m in Sources */,
 				3A077BA61C46444E00DBEA9E /* LEOMainNavController.m in Sources */,
